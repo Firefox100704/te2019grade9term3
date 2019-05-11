@@ -21,15 +21,70 @@ header {
 }
 
 #first {
-	background-color: pink;
+	background-color: white;
 }
 
 #second {
-	background-color: blue;
+	background-color: white;
 }
 
 .poke-img {
-	display: block;
+	
 	width: 100px;
 	height: 100px;
+}
+#button1 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+
+
+
+  color: navy;
+}
+
+#button1:hover {
+  background-color: navy;
+  color: white;
+}
+
+
+
+#button2 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+
+
+
+  color: maroon;
+}
+
+#button2:hover {
+  background-color: maroon;
+  color: white;
+}
+
+#button3 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+
+
+
+  color: black;
+}
+
+#button3:hover {
+  background-color: black;
+  color: white;
 }
