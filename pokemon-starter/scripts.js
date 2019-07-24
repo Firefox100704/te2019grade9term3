@@ -11,7 +11,7 @@ let pokemon = {
 		let id = Math.floor(Math.random()*800);
 		$.get(`https://pokeapi.co/api/v2/pokemon/${id}/`,function(response){
 			console.log(response);
-			console.log(response.name);
+			console.log(response.name);p
 			$('#first').empty();
 			$('#first').append(`<h1>${response.name}</h1>`);
 		});
